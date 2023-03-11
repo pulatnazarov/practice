@@ -7,7 +7,6 @@ import (
 	"practice/binary_search"
 	"practice/client_request"
 	"practice/closures"
-	"practice/concurrency"
 	"practice/cron_job"
 	"practice/deadlock_check"
 	"practice/defer_check"
@@ -26,6 +25,7 @@ import (
 
 // Main function
 func main() {
+	concurrency.Channel()
 	//Recursive()
 	//GoRoutine()
 	//leetcode.DeleteDuplicates()
